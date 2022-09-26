@@ -161,7 +161,10 @@ html {
     color: #fff;
 }
 
-.main_layer .middle_layer p,
+.main_layer .middle_layer p {
+    font-size: 7rem;
+    font-weight: 900;
+}
 .main_layer .middle_layer .fa {
     font-size: 7rem;
     font-weight: 900;
