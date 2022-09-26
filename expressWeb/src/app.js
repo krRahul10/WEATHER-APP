@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 const hbs = require("hbs");
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // ****PUBLIC state path*****
 
